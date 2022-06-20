@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
  * Servlet implementation class LoginCheck
  */
 
-public class LoginCheck extends HttpServlet {
+public class LoginCheck extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 
 	@Override
