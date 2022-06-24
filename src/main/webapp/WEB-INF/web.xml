@@ -99,8 +99,14 @@
 	<servlet-name>Logout</servlet-name>
 	<url-pattern>/Logout</url-pattern>
   </servlet-mapping>
+ <resouce-ref>
+ 	<description>ConnectionPool</description>
+ 	<res-ref-name>jdbc/myOracle</res-ref-name>
+ 	<res-type>javax.sql.DataSource</res-type>
+ 	<res-auth>Container</res-auth>
+ </resouce-ref>
  
-<!--   <error-page>
+ <error-page>
   	<error-code>404</error-code>
   	<location>/error.jsp</location>
   </error-page>
@@ -108,7 +114,7 @@
   	<error-code>500</error-code>
   	<location>/error500.jsp</location>
   </error-page>
-   -->
+  
   
   
   
