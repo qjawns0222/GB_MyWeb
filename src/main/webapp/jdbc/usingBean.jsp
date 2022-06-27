@@ -1,4 +1,4 @@
-<%@page import="java.util.Vector"%>
+<%@page import="util.Vector"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	import="java.sql.*,tommy.web.jdbc.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

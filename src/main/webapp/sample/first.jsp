@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page errorPage="error.jsp" %>
@@ -13,7 +14,7 @@
 	<hr color="red" />
 	<br>
 	<center>
-		<font size="5"> 지금은 <%=new java.util.Date()%> 입 니 다.
+		<font size="5"> 지금은 <%=new Date()%> 입 니 다.
 		</font>
 	</center>
 
