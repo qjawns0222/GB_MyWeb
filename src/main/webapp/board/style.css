@@ -1,0 +1,14 @@
+@charset "UTF-8";
+a:link,a:visited,a:active{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color:red;
+}
+TABLE,TR,TF,TH{
+	font-size:9px;
+}
+p{
+	font-size:9px;
+}
